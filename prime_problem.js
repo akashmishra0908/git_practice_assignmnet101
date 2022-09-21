@@ -1,7 +1,7 @@
-function prime_number(N){
-let count=0;
-for(i=0;i<=N;i++){
-if(N%i==0){
+function prime_number(Num){
+let fac=0;
+for(i=0;i<=Num;i++){
+if(Num%i==0){
 count++;
 }
 }
@@ -12,8 +12,8 @@ return false;
 }
 let ans=prime_number(13);
 if(ans==true){
-console.log("yes")
+console.log("Prime");
 }
 else{
-console.log("No)
+console.log("Not Prime");
 }
